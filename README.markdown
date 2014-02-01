@@ -8,6 +8,12 @@ Dependencias
 
 Configuração
 
+  - Permissão para executar script instalador
+    `$ chmod +x ./install.sh`
+
+  - Executar script instalador
+    `$ ./install.sh`
+
   - PowerLine
     Instalar uma das fontes do endereço: https://github.com/Lokaltog/powerline-fonts/tree/master/UbuntuMono
 
