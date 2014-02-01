@@ -10,14 +10,15 @@ fi
 
 echo Creating .vim directory...
 mkdir ~/.vim
+
+echo Initializing git submodules...
+git submodule init
+
+echo Updating git submodules...
+git submodule update
+
 echo Copying files...
 cp -r * ~/.vim
 cp vimrc ~/.vimrc
-
-echo Initializing git submodules...
-git submodules init
-
-echo Updating git submodules...
-git submodules update
 
 echo Done!
