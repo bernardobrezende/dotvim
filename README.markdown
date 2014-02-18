@@ -1,4 +1,4 @@
-Dependencias
+Dependências
 
   - Pacotes
      ack-grep (Ack)
@@ -8,7 +8,7 @@ Dependencias
 
 Configuração
 
-  - Permissão para executar script instalador
+  - Permissão para executar script instalador (caso não haja)
     `$ chmod +x ./install.sh`
 
   - Executar script instalador
